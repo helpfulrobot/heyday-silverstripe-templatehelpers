@@ -94,6 +94,6 @@ class TemplateHelpers implements TemplateGlobalProvider
      */
     public static function joinPaths(array $paths)
     {
-        return preg_replace('#/+#','/', join('/', $paths));
+        return preg_replace('#/+#', '/', join('/', $paths));
     }
 }
